@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAMHI - Fal-Mal Hope Initiative</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <style>
+        .hero {
+            background: url('img/hero.jpg') no-repeat center center/cover;
+            color: white;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .section-title {
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #learnMore:hover {
+            color: beige;
+        }
+
+        #about {
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .about-img {
+            width: 100%;
+        }
+
+        .hover-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hover-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top mx-2">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bolder mx-5" title="Fal-Mal Hope Initiative (FAMHI)" href="index.html">FAMHI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="about.html">Who we are</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#differentiators">Why Choose FAMHI</a>
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            What we do
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html#competencies">Protection and WASH</a></li>
+                            <li><a class="dropdown-item" href="index.html#competencies">Agriculture & Livelihoods</a>
+                            </li>
+                            <li><a class="dropdown-item" href="index.html#competencies">Education and Shelter</a></li>
+                            <li><a class="dropdown-item" href="index.html#competencies">Camp Coordination</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="competence.html">More</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex mx-5" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- ending navigation -->
+
+    <div class="container mt-5">
+        <div class="row d-none d-md-flex align-items-center">
+            <div class="col-4  my-0" style="text-align: left;">
+                <img src="img/logo.jpg" alt="FAMHI Logo" style="max-width: 100px; height: auto;" /><br>
+            </div>
+            <div class="col-md-4 py-3">
+                <p class="text-left my-0"><strong>Email address:</strong> falmalhopeinitiative@yahoo.com </p>
+                <p class="text-left my-0"><strong>Phone:</strong> 08038566169</p>
+            </div>
+            <div class="col-md-4 mt-3" style="text-align: right">
+                <a href="donate.html" class="btn btn-outline-primary">Donate Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero mx-2">
+        <div>
+            <h1 data-aos="fade-up" data-aos-delay="200">Fal-Mal Hope Initiative (FAMHI)</h1>
+            <p class="lead fw-bolder">Empowering Vulnerable Communities with Sustainable Solutions</p>
+            <a href="about.html" class="btn btn-primary btn-lg mt-3">Know More</a>
+        </div>
+    </header>
+
+    <!-- diverder -->
+    <div class="container-fluid my-4 mb-0">
+        <div class="row">
+            <div class="col-md-12">
+                <hr style="border:solid 2px rgb(16, 67, 170);">
+            </div>
+        </div>
+    </div>
+    <!-- ending divider -->
+
+    <!-- modal section -->
+    <!-- Modal -->
+    <div class="modal fade" id="valuesModal" tabindex="-1" aria-labelledby="valuesModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg rounded-4">
+
+                <!-- Header -->
+                <div class="modal-header bg-ligh text-dack">
+                    <h4 class="modal-title fw-semibold" id="valuesModalLabel">Our Core Values</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body px-4 py-5">
+                    <div class="text-center mb-4">
+                        <p class="lead text-muted">
+                            At <strong>FAMHI</strong>, our values guide every decision and define the way we work with
+                            communities.
+                        </p>
+                    </div>
+
+                    <div class="row g-4 text-center">
+                        <div class="col-md-4">
+                            <i class="bi bi-heart-fill fs-1 text-danger mb-3"></i>
+                            <h6 class="fw-bold">Compassion</h6>
+                            <p class="small text-muted">We act with empathy and respect, placing people at the center of
+                                our mission.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <i class="bi bi-shield-fill-check fs-1 text-success mb-3"></i>
+                            <h6 class="fw-bold">Integrity</h6>
+                            <p class="small text-muted">We safeguard rights and uphold the highest standards of
+                                accountability.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <i class="bi bi-trophy-fill fs-1 text-warning mb-3"></i>
+                            <h6 class="fw-bold">Excellence</h6>
+                            <p class="small text-muted">We pursue sustainable impact that stands the test of time.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <div class="modal-footer justify-content-center bg-light">
+                    <button type="button" class="btn btn-outline-dark px-4" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end modal section -->
+
+    <!-- About -->
+    <section id="about" class="py-3 mx-2 bg-light">
+        <div class="container" data-aos="fade-up" data-aos-delay="150">
+            <div class="row">
+                <div class="col-md-6 mx-0">
+                    <h2 class="section-title text-center border-bottom">About Us
+                    </h2>
+                    <p style="text-align: justify">
+                        Fal-Mal Hope Initiative (FAMHI) is a national independent humanitarian non-profit organization
+                        registered under Part C of the Companies and Allied Matters Act 2004.
+                        We are committed to empowering vulnerable communities through sustainable solutions in WASH,
+                        shelter,
+                        protection, education, livelihoods, and durable solutions for displaced persons.
+                    </p>
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-12 my-3 d-flex justify-content-center">
+                                <div class="btn btn-outline-primary py-2 px-3">
+                                    <a href="about.html" id="learnMore">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-3 d-flex justify-content-center">
+                    <img src="img/7.jpg" class="img about-img d-block" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Competencies -->
+    <section id="competencies" class="py-5 mx-2 bg-light">
+        <h2 class="section-title text-center" data-aos="fade-up" data-aos-delay="100">Our Core Competencies</h2>
+        <div class="container" data-aos="fade-up" data-aos-delay="200">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow hover-card">
+                        <div class="card-body">
+                            <i class="fas fa-dollar fa-3x text-primary"></i>
+
+                            <h5 class="card-title fw-bolder">Protection</h5>
+                            <p class="card-text" style="text-align: justify">
+                                We focus on protecting the most vulnerable, ensuring access to legal aid Assistance (on
+                                Legal &
+                                Identity Rights, Housing, Land & Property Rights), psychosocial support, and
+                                safeguarding.
+                            </p>
+                            <a href="competence.html" class="btn btn-outline-primary">More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow hover-card">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder">WASH</h5>
+                            <p class="card-text" style="text-align: justify">
+                                Provision of Water, Sanitation and Hygiene (WASH) We deliver essential water,
+                                sanitation,
+                                and hygiene solutions, including water supply systems, sanitation infrastructure, and
+                                hygiene.
+                            </p>
+                            <a href="competence.html" class="btn btn-outline-primary">More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow hover-card">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder">Agriculture & Livelihoods</h5>
+                            <p class="card-text" style="text-align: justify">
+                                We support communities in achieving sustainable livelihoods by providing agricultural
+                                training, promoting climate-smart farming techniques, and facilitating access to
+                                essential tools
+
+                            </p>
+                            <a href="competence.html" class="btn btn-outline-primary">More →</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow hover-card">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder">Education</h5>
+                            <p class="card-text" style="text-align: justify">
+                                We work to increase access to quality education, building schools, training teachers,
+                                and promoting educational outreach for children and communities with equity, innovation,
+                                and empowerment.
+                            </p>
+                            <a href="competence.html" class="btn btn-outline-primary">More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow hover-card">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder">Shelter</h5>
+                            <p class="card-text" style="text-align: justify">
+                                Our shelter programs provide safe, dignified housing solutions for displaced
+                                populations,
+                                offering emergency shelter and long-term housing solutions to those affected by crises &
+                                natural disaster.
+                            </p>
+                            <a href="competence.html" class="btn btn-outline-primary">More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow hover-card">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder">Camp Coordination</h5>
+                            <p class="card-text" style="text-align: justify">
+                                We coordinate camp management, train committees, and ensure fair, safe access to
+                                essential services for displaced persons. We promote dignity, safety, inclusion, and
+                                community empowerment.
+                            </p>
+                            <a href="competence.html" class="btn btn-outline-primary">More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Impact -->
+    <section id="performance" class="py-5">
+        <h2 class="text-center mb-4" data-aos="fade-up" data-aos-delay="100">Our Impact</h2>
+
+        <div class="container py-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="row g-4">
+                <!-- Category 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card text-center shadow-sm hover-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Education</h5>
+                            <p class="display-6 fw-bold text-primary">1,200</p>
+                            <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p class="text-muted">People Reached</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Category 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card text-center shadow-sm hover-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Health</h5>
+                            <p class="display-6 fw-bold text-success">850</p>
+                            <p class="text-muted">People Supported</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Category 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card text-center shadow-sm hover-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Food Security</h5>
+                            <p class="display-6 fw-bold text-danger">2,000</p>
+                            <p class="text-muted">Beneficiaries</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Category 4 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card text-center shadow-sm hover-card">
+                        <div class="card-body">
+                            <h5 class="card-title">WASH</h5>
+                            <p class="display-6 fw-bold text-info">950</p>
+                            <p class="text-muted">Individuals</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Category 5 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card text-center shadow-sm hover-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Shelter</h5>
+                            <p class="display-6 fw-bold text-warning">600</p>
+                            <p class="text-muted">Families Assisted</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Category 6 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card text-center shadow-sm hover-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Protection</h5>
+                            <p class="display-6 fw-bold text-dark">400</p>
+                            <p class="text-muted">Cases Managed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ending Our Impact -->
+
+
+    <!-- Our Past Performance -->
+    <!-- Sample Section -->
+    <section id="programs" class="py-5 mx-2 bg-light">
+        <h2 class="text-center mb-4" data-aos="fade-up">Past Performance</h2>
+        <div class="container">
+            <div class="row justify-content-center g-4">
+
+                <!-- Card 1 -->
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card shadow-sm hover-card" style="width: 19rem;">
+                        <img src="img/2.jpg" class="card-img-top" alt="Program 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Education</h5>
+                            <p class="card-text">We support access to quality education through schools and training.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card shadow-sm hover-card" style="width: 19rem;">
+                        <img src="img/2.jpg" class="card-img-top" alt="Program 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Health</h5>
+                            <p class="card-text">We provide healthcare awareness, services, and support for communities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card shadow-sm hover-card" style="width: 19rem;">
+                        <img src="img/2.jpg" class="card-img-top" alt="Program 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Protection</h5>
+                            <p class="card-text">Ensuring safety and referrals for GBV and child protection cases.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Button -->
+            <div class="text-center mt-4">
+                <a href="competence.html" class="btn btn-outline-primary btn-lg">Click for More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ending Our past performance -->
+
+    <!-- Differentiators -->
+    <section id="differentiators" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">Why Choose FAMHI?</h2>
+            <p class="text-center mb-5">
+                Community-centric, protection-focused, holistic approach with expertise in housing,
+                land, property rights, and strong local engagement.
+            </p>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 text-center shadow-sm border-0 rounded-3 p-4 hover-card">
+                        <div class="card-body">
+                            <i class="bi bi-people-fill fs-1 text-primary mb-3"></i>
+                            <h5 class="card-title">Community-Centric</h5>
+                            <p class="card-text">We prioritize the needs of the community, ensuring inclusive solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 text-center shadow-sm border-0 rounded-3 p-4 hover-card">
+                        <div class="card-body">
+                            <i class="bi bi-shield-check fs-1 text-success mb-3"></i>
+                            <h5 class="card-title">Protection-Focused</h5>
+                            <p class="card-text">Safeguarding housing, land, and property rights with trusted expertise.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 text-center shadow-sm border-0 rounded-3 p-4 hover-card">
+                        <div class="card-body">
+                            <i class="bi bi-hand-thumbs-up fs-1 text-warning mb-3"></i>
+                            <h5 class="card-title">Strong Engagement</h5>
+                            <p class="card-text">Working closely with local communities for sustainable impact.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Success Story</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card shadow-lg border-0 rounded-3 p-4 text-center testimonial-card">
+                        <i class="bi bi-quote fs-1 text-primary mb-3"></i>
+                        <blockquote class="blockquote mb-4">
+                            <p class="mb-3">
+                                “Thanks to <strong>FAMHI</strong> and <strong>NRC</strong>,
+                                <em>Falmata Musa</em> and her family now live in a proper, sturdy home after being
+                                displaced.
+                                Their lives have been transformed through compassion and support.”
+                            </p>
+                            <footer class="blockquote-footer">Beneficiary Testimonial</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">Contact Us</h2>
+            <p><strong>Executive Director:</strong> Alhaji Malami Lawan</p>
+            <p><strong>Phone:</strong> 08038566169 | <strong>Email:</strong> falmalhopeinitiative@yahoo.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Fal-Mal Hope Initiative (FAMHI). All Rights Reserved.</p>
+    </footer>
+
+    <!-- Auto Show Modal on Page Load -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var valuesModal = new bootstrap.Modal(document.getElementById("valuesModal"));
+            valuesModal.show();
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
